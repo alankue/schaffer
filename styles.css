@@ -11,7 +11,7 @@ body {
   }  
 
   #logo {
-    width: max(100px, 18vw);
+    width: max(400px, 18vw);
     aspect-ratio: auto;
     background-color: #ffffff;
     }  
