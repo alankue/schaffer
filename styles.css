@@ -13,7 +13,7 @@ body {
   #logo {
     width: max(300px, 18vw);
     aspect-ratio: auto;
-    background-color: #ffffff;
+    background-color: #ffffffbf;
     }  
   
   /* h1 {
@@ -49,7 +49,7 @@ body {
   
   .contact {
     width: 90%;
-    background-color: #ffffff;
+    background-color: #ffffffbf;
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
