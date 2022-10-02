@@ -97,8 +97,6 @@ body{--wp--preset--color--black: #000000;
 .has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}
 .has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
 
-/*.site-title a { background: url("logo.png") no-repeat !important; }
-
 /*
 	Theme Name: Enterprise Pro
 	Theme URI: http://my.studiopress.com/themes/enterprise/
@@ -116,70 +114,6 @@ body{--wp--preset--color--black: #000000;
 	License: GPL-2.0+
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
-
-/* Table of Contents
-
-	- Imports
-	- HTML5 Reset
-		- Baseline Normalize
-		- Box Sizing
-		- Float Clearing
-	- Defaults
-		- Typographical Elements
-		- Headings
-		- Objects
-		- Gallery
-		- Forms
-		- Tables
-	- Structure and Layout
-		- Site Containers
-		- Column Widths and Positions
-		- Column Classes
-	- Common Classes
-		- Avatar
-		- Genesis
-		- Search Form
-		- Titles
-		- WordPress
-	- Widgets
-		- Featured Content
-	- Plugins
-		- Genesis eNews Extended
-		- Genesis Responsive Slider
-		- Gravity Forms
-		- Jetpack
-	- Site Header
-		- Title Area
-		- Widget Area
-	- Site Navigation
-		- Header Navigation
-		- Primary Navigation
-		- Secondary Navigation
-		- Responsive Menu
-	- Content Area
-		- Home Page
-		- Entries
-		- Entry Meta
-		- After Entry
-		- Pagination
-		- Comments
-	- Sidebars
-	- Footer Widgets
-	- Site Footer
-	- Theme Colors
-		- Enterprise Pro Black
-		- Enterprise Pro Green
-		- Enterprise Pro Orange
-		- Enterprise Pro Red
-		- Enterprise Pro Teal
-	- Media Queries
-		- Retina Display
-		- Max-width: 1139px
-		- Max-width: 1023px
-		- Max-width: 767px
-
-*/
-
 
 /*
 Imports
@@ -1170,7 +1104,7 @@ Site Header
 }
 
 .site-header .wrap {
-	padding: 40px 0;
+	padding: 0px 0;
 }
 
 /* Title Area
@@ -1178,7 +1112,7 @@ Site Header
 
 .title-area {
 	float: left;
-	padding: 0 0 4px;
+	padding: 0 0 0px;
 	width: 350px;
 }
 
@@ -1201,7 +1135,7 @@ Site Header
 .header-image .site-title > a {
 	background-position: top !important;
 	float: left;
-	min-height: 80px;
+	min-height: 119px;
 	width: 100%;
 }
 
@@ -1212,8 +1146,7 @@ Site Header
 	font-weight: 300;
 	letter-spacing: 1px;
 	line-height: 1.5;
-	text-transform: uppercase;
-}
+} 
 
 .site-description,
 .site-title {
@@ -1270,7 +1203,7 @@ Site Navigation
 
 .genesis-nav-menu a {
 	display: block;
-	padding: 20px 24px;
+	padding: 0px 24px;
 }
 
 .genesis-nav-menu a:hover,
@@ -1300,7 +1233,6 @@ Site Navigation
 	border-top: none;
 	color: #333;
 	font-size: 12px;
-	padding: 16px 24px;
 	position: relative;
 	width: 200px;
 }
@@ -1813,7 +1745,6 @@ Site Footer
 	letter-spacing: 1px;
 	padding: 40px 0;
 	text-align: center;
-	text-transform: uppercase;
 }
 
 .site-footer a {
@@ -1884,118 +1815,6 @@ Theme Colors
 	color: #fff;
 }
 
-/* Enterprise Pro Green
---------------------------------------------- */
-
-.enterprise-pro-green .comment-meta a:hover,
-.enterprise-pro-green .entry-comments .comment-author a:hover,
-.enterprise-pro-green .entry-title a:hover,
-.enterprise-pro-green .genesis-nav-menu .current-menu-item > a,
-.enterprise-pro-green .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.enterprise-pro-green .genesis-nav-menu .sub-menu a:hover,
-.enterprise-pro-green .genesis-nav-menu a:hover,
-.enterprise-pro-green .site-footer a:hover,
-.enterprise-pro-green .site-title a,
-.enterprise-pro-green .site-title a:hover,
-.enterprise-pro-green a {
-	color: #2bc876;
-}
-
-.enterprise-pro-green .comment-meta a,
-.enterprise-pro-green .site-footer a {
-	color: #aaa;
-}
-
-.enterprise-pro-green .entry-comments .comment-author a,
-.enterprise-pro-green .entry-title a,
-.enterprise-pro-green .genesis-nav-menu a,
-.enterprise-pro-green .sidebar .widget-title a,
-.enterprise-pro-green a:hover {
-	color: #333;
-}
-
-.enterprise-pro-green .nav-primary a {
-	color: #fff;
-}
-
-.enterprise-pro-green .archive-pagination .active a,
-.enterprise-pro-green .archive-pagination li a:hover,
-.enterprise-pro-green .button,
-.enterprise-pro-green .home-top .more-link,
-.enterprise-pro-green button,
-.enterprise-pro-green input[type="button"],
-.enterprise-pro-green input[type="reset"],
-.enterprise-pro-green input[type="submit"] {
-	background-color: #2bc876;
-	color: #fff;
-}
-
-.enterprise-pro-green .button:hover,
-.enterprise-pro-green .home-top .more-link:hover,
-.enterprise-pro-green button:hover,
-.enterprise-pro-green input:hover[type="button"],
-.enterprise-pro-green input:hover[type="reset"],
-.enterprise-pro-green input:hover[type="submit"] {
-	background-color: #333;
-	color: #fff;
-}
-
-/* Enterprise Pro Orange
---------------------------------------------- */
-
-.enterprise-pro-orange .comment-meta a:hover,
-.enterprise-pro-orange .entry-comments .comment-author a:hover,
-.enterprise-pro-orange .entry-title a:hover,
-.enterprise-pro-orange .genesis-nav-menu .current-menu-item > a,
-.enterprise-pro-orange .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.enterprise-pro-orange .genesis-nav-menu .sub-menu a:hover,
-.enterprise-pro-orange .genesis-nav-menu a:hover,
-.enterprise-pro-orange .site-footer a:hover,
-.enterprise-pro-orange .site-title a,
-.enterprise-pro-orange .site-title a:hover,
-.enterprise-pro-orange a {
-	color: #ff6f00;
-}
-
-.enterprise-pro-orange .comment-meta a,
-.enterprise-pro-orange .site-footer a {
-	color: #aaa;
-}
-
-.enterprise-pro-orange .entry-comments .comment-author a,
-.enterprise-pro-orange .entry-title a,
-.enterprise-pro-orange .genesis-nav-menu a,
-.enterprise-pro-orange .sidebar .widget-title a,
-.enterprise-pro-orange a:hover {
-	color: #333;
-}
-
-.enterprise-pro-orange .nav-primary a {
-	color: #fff;
-}
-
-.enterprise-pro-orange .archive-pagination .active a,
-.enterprise-pro-orange .archive-pagination li a:hover,
-.enterprise-pro-orange .button,
-.enterprise-pro-orange .home-top .more-link,
-.enterprise-pro-orange button,
-.enterprise-pro-orange input[type="button"],
-.enterprise-pro-orange input[type="reset"],
-.enterprise-pro-orange input[type="submit"] {
-	background-color: #ff6f00;
-	color: #fff;
-}
-
-.enterprise-pro-orange .button:hover,
-.enterprise-pro-orange .home-top .more-link:hover,
-.enterprise-pro-orange button:hover,
-.enterprise-pro-orange input:hover[type="button"],
-.enterprise-pro-orange input:hover[type="reset"],
-.enterprise-pro-orange input:hover[type="submit"] {
-	background-color: #333;
-	color: #fff;
-}
-
 /* Enterprise Pro Red
 --------------------------------------------- */
 
@@ -2051,63 +1870,6 @@ Theme Colors
 	background-color: #333;
 	color: #fff;
 }
-
-/* Enterprise Pro Teal
---------------------------------------------- */
-
-.enterprise-pro-teal .comment-meta a:hover,
-.enterprise-pro-teal .entry-comments .comment-author a:hover,
-.enterprise-pro-teal .entry-title a:hover,
-.enterprise-pro-teal .genesis-nav-menu .current-menu-item > a,
-.enterprise-pro-teal .genesis-nav-menu .sub-menu .current-menu-item > a:hover,
-.enterprise-pro-teal .genesis-nav-menu .sub-menu a:hover,
-.enterprise-pro-teal .genesis-nav-menu a:hover,
-.enterprise-pro-teal .site-footer a:hover,
-.enterprise-pro-teal .site-title a,
-.enterprise-pro-teal .site-title a:hover,
-.enterprise-pro-teal a {
-	color: #34bfba;
-}
-
-.enterprise-pro-teal .comment-meta a,
-.enterprise-pro-teal .site-footer a {
-	color: #aaa;
-}
-
-.enterprise-pro-teal .entry-comments .comment-author a,
-.enterprise-pro-teal .entry-title a,
-.enterprise-pro-teal .genesis-nav-menu a,
-.enterprise-pro-teal .sidebar .widget-title a,
-.enterprise-pro-teal a:hover {
-	color: #333;
-}
-
-.enterprise-pro-teal .nav-primary a {
-	color: #fff;
-}
-
-.enterprise-pro-teal .archive-pagination .active a,
-.enterprise-pro-teal .archive-pagination li a:hover,
-.enterprise-pro-teal .button,
-.enterprise-pro-teal .home-top .more-link,
-.enterprise-pro-teal button,
-.enterprise-pro-teal input[type="button"],
-.enterprise-pro-teal input[type="reset"],
-.enterprise-pro-teal input[type="submit"] {
-	background-color: #34bfba;
-	color: #fff;
-}
-
-.enterprise-pro-teal .button:hover,
-.enterprise-pro-teal .home-top .more-link:hover,
-.enterprise-pro-teal button:hover,
-.enterprise-pro-teal input:hover[type="button"],
-.enterprise-pro-teal input:hover[type="reset"],
-.enterprise-pro-teal input:hover[type="submit"] {
-	background-color: #333;
-	color: #fff;
-}
-
 
 /*
 Media Queries
