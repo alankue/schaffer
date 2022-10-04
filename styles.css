@@ -605,7 +605,7 @@ Structure and Layout
 .content {
 	float: right;
 	width: 740px;
-}
+} 
 
 .content-sidebar .content,
 .content-sidebar-sidebar .content,
@@ -625,10 +625,10 @@ Structure and Layout
 
 /* Primary Sidebar */
 
-.sidebar-primary {
+/*.sidebar-primary {
 	float: right;
 	width: 360px;
-}
+} */
 
 .sidebar-content .sidebar-primary,
 .sidebar-sidebar-content .sidebar-primary {
