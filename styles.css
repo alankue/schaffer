@@ -895,8 +895,12 @@ Widgets
 ---------------------------------------------------------------------------------------------------- */
 
 .widget {
-	word-wrap: break-word;
+	/* word-wrap: break-word; */
 	margin-bottom: 40px;
+}
+
+.home-top {
+	margin-bottom: -47px;
 }
 
 .widget li {
